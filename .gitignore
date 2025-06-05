@@ -33,3 +33,6 @@ java.opts
 .idea/
 .vscode/
 *.swp
+
+# Optional: if you auto-generate .m from .mlx
+*.m.generated.m

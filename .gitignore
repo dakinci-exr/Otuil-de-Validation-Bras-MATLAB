@@ -1,0 +1,35 @@
+# MATLAB specific files to ignore
+
+# Backup and autosave files
+*.asv
+*.m~ 
+*.fig~
+
+# Simulink autosave
+*.mdl.autosave
+*.slx.autosave
+
+# MATLAB crash dump
+matlab_crash_dump.*
+javaclasspath.txt
+java.opts
+
+# User-specific settings
+*.prj # MATLAB project files (optional - remove if you want to track)
+*.mlproj # Newer MATLAB project files (optional)
+
+# Workspaces, figures, cache, etc.
+*.mat
+*.fig
+*.bak
+*.log
+
+# Compiled files
+*.mex*
+*.p
+
+# Hidden folders
+.DS_Store
+.idea/
+.vscode/
+*.swp
